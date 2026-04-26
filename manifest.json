@@ -1,0 +1,38 @@
+{
+  "name": "ReSharps – Regnskab",
+  "short_name": "ReSharps",
+  "description": "Regnskab og lagerstyring for ReSharps",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#1F3864",
+  "orientation": "portrait-primary",
+  "lang": "da",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Registrer vare",
+      "url": "./#varer",
+      "description": "Tilføj en ny vare"
+    },
+    {
+      "name": "Beholdning",
+      "url": "./#beholdning",
+      "description": "Se lager"
+    }
+  ],
+  "categories": ["business", "finance"]
+}
